@@ -1,5 +1,7 @@
 
 
+
+
 * {
 
 	margin: 0;
@@ -475,7 +477,7 @@ position: absolute;
 
 .contact .social a {
   color: #CFCFCF;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 .contact .social i {
