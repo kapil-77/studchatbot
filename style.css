@@ -65,6 +65,12 @@ header .nav {
 
 /*add animation class*/
 
+.container .welcome-sec{
+  background-image: url(ditimage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
 
 .container .welcome-sec {
 
@@ -73,14 +79,12 @@ header .nav {
   	text-align: center;
   	height: 90vh;
   	position: relative;
-
-
 }
+
 .welcome-sec .welcome-part {
 
   	margin: 0 auto;
  /*for animation*/
-
 }
 
 /*add animation for slider*/
