@@ -67,9 +67,12 @@ header .nav {
 
 
 #tofloat{
+	/*height: 400px;
+	width: 300px;*/
 	float: right;
 	}
 	
+
 .container .welcome-sec{
   background-image: url(ditimage.jpg);
   background-repeat: no-repeat;
@@ -127,7 +130,7 @@ header .nav {
 
 
 .welcome-part .photo-div {
-  padding: 100px 0 20px 300px;
+  padding: 100px 0 20px 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -611,22 +614,24 @@ footer {
 
 		font-size: 25px;
 	}
-	
-	#tofloat{
-               /*height: 400px;
-                 width: 300px;*/
-                 min-width: 100px;
-                 width: 100%;
-        }
-	
-	
-        .welcome-part .photo-div{
-                 padding: 100px 0 20px 30px;
-                 margin: 0 auto;
-                 text-align: center;
-        }
+
+  #tofloat{
+    /*height: 400px;
+    width: 300px;*/
+   
+    min-width: 100px;
+    width: 100%;
+  }
+  
+
+  .welcome-part .photo-div{
+    padding: 100px 0 20px 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
 	.container .welcome-sec .contain {
+    padding-top: 30px;
 
 		left: 45%;
 
