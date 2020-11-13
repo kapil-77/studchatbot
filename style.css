@@ -611,6 +611,20 @@ footer {
 
 		font-size: 25px;
 	}
+	
+	#tofloat{
+               /*height: 400px;
+                 width: 300px;*/
+                 min-width: 100px;
+                 width: 100%;
+        }
+	
+	
+        .welcome-part .photo-div{
+                 padding: 100px 0 20px 30px;
+                 margin: 0 auto;
+                 text-align: center;
+        }
 
 	.container .welcome-sec .contain {
 
