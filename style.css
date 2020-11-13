@@ -67,13 +67,9 @@ header .nav {
 
 
 #tofloat{
-	height: 400px;
-	width: 300px;
 	float: right;
-	
 	}
 	
-
 .container .welcome-sec{
   background-image: url(ditimage.jpg);
   background-repeat: no-repeat;
@@ -131,7 +127,7 @@ header .nav {
 
 
 .welcome-part .photo-div {
-  padding: 100px 0 20px 0;
+  padding: 100px 0 20px 300px;
   margin: 0 auto;
   text-align: center;
 }
