@@ -25,6 +25,20 @@
 		<!-- stylesheet -->
 
 	</head>
+	
+	 <script>
+          window.watsonAssistantChatOptions = {
+          integrationID: "17ab2b50-bdd5-42c3-9b16-e538b696949d", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "2141daa1-634b-4ae9-9194-006d2dded133", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+          });
+          </script>
 
 	<body>
 
@@ -59,9 +73,7 @@
 			<section class="welcome-sec" id="welcome-section">
 
 				<div class="welcome-part">
-					<div id="tofloat"><iframe
-                                        src="https://webchat.botframework.com/embed/BotG83?s=ngO5ac4r_1c.ISsSvNHW7jlnh3SqUVfJ0hpTy87HJ8UJc4AGA7Ae7Eg"
-                                        style="min-width: 400px; width: 100%; min-height: 200px"></div>
+					
 					<div class="photo-div"><img src="dit.png" alt="profile-picture" class="photo"/></div>
 					<h1> Hi, This is <span> DIT </span></h1>
 					<p> We welcome you to our web page </p>
