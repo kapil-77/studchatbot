@@ -131,7 +131,7 @@ header .nav {
 }
 
 .welcome-part h1 span {
-  color: #ff0051;
+  color: #B71F3B;
   font-size: 3vw;
 }
 
@@ -178,7 +178,7 @@ header .nav {
   justify-content: center;
 
   position: absolute;
-  left: 925px;
+  left: 935px;
   top: 450px;
 }
 
@@ -193,7 +193,7 @@ header .nav {
 }
 
 .container .welcome-sec .contain .colored {
-  background-color: #d11717;
+  background-color: #BF232A;
 }
 
 .container .welcome-sec .contain .right {
@@ -456,7 +456,7 @@ header .nav {
 }
 
 .contact .social a {
-  color: #20718c;
+  color: #3885b3;
   padding-left: 15px;
 }
 
