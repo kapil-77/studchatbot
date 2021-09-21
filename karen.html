@@ -13,23 +13,30 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
     <!-- fonticons -->
-    <!-- google fonts -->
 
+    <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Gugi&display=swap"
-      rel="stylesheet"/>
-
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- google fonts -->
 
     <!-- stylesheet -->
     <link href="style.css" rel="stylesheet" />
     <!-- stylesheet -->
   </head>
+  
   <script>
   window.watsonAssistantChatOptions = {
       integrationID: "17ab2b50-bdd5-42c3-9b16-e538b696949d", // The ID of this integration.
@@ -55,13 +62,13 @@
           </li>
           <li><a href="#">About</a></li>
           <li><a href="#projects">Sections</a></li>
-          <li><a href="#contact-me">Contact Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
       </div>
       <nav id="navbar" class="nav">
         <a href="#">About</a>
         <a href="#projects">Sections</a>
-        <a href="#contact-me">Contact Us</a>
+        <a href="#contact">Contact Us</a>
       </nav>
     </header>
 
@@ -87,20 +94,27 @@
             <a
               class="profile-link"
               href="https://www.facebook.com/DITUniversity.edu/"
-              target="_blank"><i class="fab fa-facebook"></i></a>
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
             <a
               class="profile-link"
               href="https://www.instagram.com/dituniversity/?hl=en"
               target="_blank"
-              ><i class="fab fa-instagram"></i></a>
+              ><i class="fab fa-instagram"></i
+            ></a>
             <a
               class="profile-link"
               href="https://twitter.com/dit_university?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-              target="_blank"><i class="fab fa-twitter"></i></a>
+              target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
             <a
               class="profile-link"
               href="https://www.linkedin.com/school/dit-university/?originalSubdomain=in"
-              target="_blank"><i class="fab fa-linkedin"></i></a>
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </div>
         </div>
         
@@ -120,7 +134,8 @@
             <img
               class="proj-screenshot"
               src="images/academics.jpg"
-              alt="desktop-preview"/>
+              alt="desktop-preview"
+            />
 
             <div class="project-title">
               <h6>Academics</h6>
@@ -138,7 +153,9 @@
                 <a
                   class="website-link"
                   href="https://www.dituniversity.edu.in/academic-calendar"
-                  target="_blank">Go To Website</a>
+                  target="_blank"
+                  >Go To Website</a
+                >
               </div>
             </div>
           </div>
@@ -163,7 +180,9 @@
                 <a
                   class="website-link"
                   href="https://www.dituniversity.edu.in/placements/placement-highlights"
-                  target="_blank">Go To Website</a>
+                  target="_blank"
+                  >Go To Website</a
+                >
               </div>
             </div>
           </div>
@@ -186,7 +205,9 @@
                 <a
                   class="website-link"
                   href="https://www.dituniversity.edu.in/about-us/rankings-and-collaborations"
-                  target="_blank">Go To Website</a>
+                  target="_blank"
+                  >Go To Website</a
+                >
               </div>
             </div>
           </div>
@@ -210,58 +231,93 @@
                 <a
                   class="website-link"
                   href="https://www.dituniversity.edu.in/ug-courses/btech-computer-science-and-engineering"
-                  target="_blank">Go To Website</a>
+                  target="_blank"
+                  >Go To Website</a
+                >
               </div>
+              x
             </div>
           </div>
         </div>
         <a class="more show-link"
-          >show More<i class="fas fa-chevron-circle-down"></i></a>
+          >show More<i class="fas fa-chevron-circle-down"></i
+        ></a>
         <a class="less show-link toggle"
-          >show less<i class="fas fa-chevron-circle-up"></i></a>
+          >show less<i class="fas fa-chevron-circle-up"></i
+        ></a>
       </section>
     </div>
 
-    <section id="contact-me" class="contact">
-      <div class="contact-div">
-        <h2>Contact Us</h2>
+    <section id="contact">
+   
+      <h1 class="section-header">Contact</h1>
 
-        <p>Have any query in mind? <span>Say Hello at:</span></p>
+   <div class="contact-wrapper">
+  
+         <form id="contact-form" class="form-horizontal" role="form">
+           <div class="form-group">
+             <div class="col-sm-12">
+              <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required/>
+             </div>
+           </div>
 
-        <p class="email">bhattk808@gmail.com</p>
-      </div>
+           <div class="form-group">
+             <div class="col-sm-12">
+               <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required/>
+             </div>
+           </div>
+           <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+    
+           <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+             <div class="alt-send-button">
+               <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+             </div>
+           </button>
+         </form>
+  
+    <div class="direct-contact-container">
 
-      <div class="social">
-        <a
-          class="profile-link"
-          href="https://www.facebook.com/DITUniversity.edu/"
-          target="_blank"><i class="fab fa-facebook"></i></a>
-        <a
-          class="profile-link"
-          href="https://www.instagram.com/dituniversity/?hl=en"
-          target="_blank"><i class="fab fa-instagram"></i></a>
-        <a
-          class="profile-link"
-          href="https://twitter.com/dit_university?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-          target="_blank"><i class="fab fa-twitter"></i></a>
-        <a
-          class="profile-link"
-          href="https://www.linkedin.com/school/dit-university/?originalSubdomain=in"
-          target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </section>
+      <ul class="contact-list">
+        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Nainital, UK</span></i></li>
+        
+        <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-91-555-5555" title="Give me a call">(+91) 8067892840</a></span></i></li>
+        
+        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">bhattkapil.777@gmail.com</a></span></i></li>
+        
+      </ul>
+
+      <hr/>
+      <ul class="social-media-list">
+        <li><a href="https://github.com/kapil-77" target="_blank" class="contact-icon">
+          <i class="fa fa-github" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#" target="_blank" class="contact-icon">
+          <i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#" target="_blank" class="contact-icon">
+          <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#" target="_blank" class="contact-icon">
+          <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>       
+      </ul>
+      <hr/>
+     </div>
+  
+     </div>
+
+  </section>  
 
     <footer id="footer">Copyright&copy;2021. All Rights Reserved.</footer>
-    <!--Jquery-->
+    <!--		Jquery-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <!--Jquery-->
-    <!--js script-->
+    <!--		Jquery-->
+    <!--js script		-->
     <script src="java.js"></script>
-    <!--js script-->
+    <!--js script		-->
   </body>
 </html>
-
