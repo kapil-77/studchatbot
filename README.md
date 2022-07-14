@@ -1,4 +1,4 @@
-#College Website Query Bot
+##College Website Query Bot
 ### [Visit Website](https://kapil-77.github.io/studchatbot/)
 
 ### Functions 
